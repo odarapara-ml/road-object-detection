@@ -39,8 +39,8 @@ This reduction helps improve training efficiency and model performance by minimi
 | [rtdetr_evaluation.ipynb](rtdetr_evaluation.ipynb) | Evaluation of RT-DETR model (mAP, precision, recall) |
 | [images/](images/) | Example output images from models |
 | [requirements.txt](requirements.txt) | Project dependencies |
-| [Магистерская диссертация ПаранинаДМ КИ23-01-13М.pdf](Магистерская%20диссертация%20ПаранинаДМ%20КИ23-01-13М.pdf) | Master's thesis, full text (available for download) |
-| [ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx](ПаранинаДМ%202025%20Распознавание%20объектов%20на%20дороге%20в%20реальном%20времени%20Защита.pptx) | PowerPoint presentation from the project defense (available for download) |
+| [DaryaParanina_RoadObjectDetection_Thesis2025.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pdf) | Master's thesis, full text (available for download) |
+| [DaryaParanina_RoadObjectDetection_Thesis2025.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx) | PowerPoint presentation from the project defense (available for download) |
 
 ## Training Details
 
