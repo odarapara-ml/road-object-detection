@@ -29,20 +29,16 @@ The original label set from the BDD100K dataset was reduced to 8 custom classes 
 | `images/` | Example output images from models |
 | `requirements.txt` | Project dependencies |
 
-## Tools and Frameworks
-
-- Python, PyTorch
-- Jupyter Notebook
-- Ultralytics YOLO, Hugging Face Transformers
-- Dataset: BDD100K (road object detection)
-
 ## Training Details
 
 **Environment:**
+- Python, PyTorch
 - Development platform: Jupyter Notebook
 - GPU: NVIDIA GTX 1630
 - Training type: Full fine-tuning (no frozen layers)
 - Auxiliary libraries: Pillow, OpenCV, Matplotlib, PyTorch
+- Frameworks: Ultralytics YOLO, Hugging Face Transformers
+- Dataset: BDD100K (road object detection)
 
 **YOLOv8n:**
 - Epochs: 25  
