@@ -89,7 +89,6 @@ Project by **Darya Paranina**, MSc in Artificial Intelligence (Siberian Federal 
 
 Master's thesis, full text (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pdf)
 
-PowerPoint presentation from the project defense (available for download):  
-[DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pptx)
+PowerPoint presentation from the project defense (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pptx)
 
 [GitHub](https://github.com/odarapara-ml)
