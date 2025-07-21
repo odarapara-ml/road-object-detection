@@ -87,8 +87,8 @@ This highlights the practical advantage of lightweight architectures like YOLOv8
 
 Project by **Darya Paranina**, MSc in Artificial Intelligence (Siberian Federal University, 2025)
 
-Master's thesis, full text (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pdf)
+Master's thesis, full text (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pdf)
 
-PowerPoint presentation from the project defense (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pptx)
+PowerPoint presentation from the project defense (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx)
 
 [GitHub](https://github.com/odarapara-ml)
