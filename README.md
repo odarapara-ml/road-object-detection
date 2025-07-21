@@ -1,4 +1,7 @@
-<img width="455" height="97" alt="image" src="https://github.com/user-attachments/assets/97e66ff8-a639-492b-b388-3050279ef2ff" /># Road Object Detection for Autonomous Driving
+# Road Object Detection for Autonomous Driving
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 This repository presents the results of my master's thesis in Artificial Intelligence, focused on real-time object detection for autonomous vehicles. The project compares YOLOv8n and RT-DETR models trained on the BDD100K dataset (road object detection).
 
@@ -6,7 +9,13 @@ This repository presents the results of my master's thesis in Artificial Intelli
 
 Train and compare lightweight convolutional (YOLOv8n) and transformer-based (RT-DETR-R101-VD) object detection models on 8 classes from the BDD100K dataset.
 
-The original label set from the BDD100K dataset was reduced to 8 custom classes for this project:
+## Object Classes
+
+The original label set from the BDD100K dataset contained 10 classes. For this project, it was reduced to 8 classes with the following modifications:
+- The **Train** class was removed due to its rare occurrence and low relevance to the task.
+- The **Motorcycle** and **Bicycle** classes were combined into a single class called **Two-wheeler**, as they share similar visual features and behavior.
+
+The final set of 8 classes used in this project is:
 1. Passenger car  
 2. Traffic sign  
 3. Traffic light  
@@ -16,18 +25,20 @@ The original label set from the BDD100K dataset was reduced to 8 custom classes 
 7. Two-wheeler (bicycle or motorcycle)  
 8. Rider on two-wheeler
 
+This reduction helps improve training efficiency and model performance by minimizing class imbalance and category overlap.
+
 ## Repository Structure
 
 | File | Description |
 |------|-------------|
-| `preprocessing.ipynb` | Cleans BDD100K annotations, applies balancing techniques, and prepares formats for YOLOv8 and RT-DETR training |
-| `yolov8_training.ipynb` | Fine-tunes YOLOv8n on BDD100K using Ultralytics interface. Tracks training metrics (mAP, recall, precision) and saves model checkpoints |
-| `rtdetr_training.ipynb` | Fine-tuning RT-DETR using Hugging Face and PyTorch and saves model checkpoints|
-| `yolov8_inference.ipynb` | Inference and visualization for YOLOv8 |
-| `rtdetr_inference.ipynb` | Inference and visualization for RT-DETR, latency measurement |
-| `rtdetr_evaluation.ipynb` | Evaluation of RT-DETR model (mAP, precision, recall) |
+| `preprocessing.ipynb` (preprocessing.ipynb) | Cleans BDD100K annotations, applies balancing techniques, and prepares formats for YOLOv8 and RT-DETR training |
+| `yolov8_training.ipynb` (yolov8_training.ipynb) | Fine-tunes YOLOv8n on BDD100K using Ultralytics interface. Tracks training metrics (mAP, recall, precision) and saves model checkpoints |
+| `rtdetr_training.ipynb` (rtdetr_training.ipynb) | Fine-tuning RT-DETR using Hugging Face and PyTorch and saves model checkpoints|
+| `yolov8_inference.ipynb` (yolov8_inference.ipynb) | Inference and visualization for YOLOv8 |
+| `rtdetr_inference.ipynb` (rtdetr_inference.ipynb) | Inference and visualization for RT-DETR, latency measurement |
+| `rtdetr_evaluation.ipynb` (rtdetr_evaluation.ipynb) | Evaluation of RT-DETR model (mAP, precision, recall) |
 | `images/` | Example output images from models |
-| `requirements.txt` | Project dependencies |
+| `requirements.txt` (requirements.txt) | Project dependencies |
 
 ## Training Details
 
