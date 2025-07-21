@@ -31,15 +31,15 @@ This reduction helps improve training efficiency and model performance by minimi
 
 | File | Description |
 |------|-------------|
-| `preprocessing.ipynb` (preprocessing.ipynb) | Cleans BDD100K annotations, applies balancing techniques, and prepares formats for YOLOv8 and RT-DETR training |
-| `yolov8_training.ipynb` (yolov8_training.ipynb) | Fine-tunes YOLOv8n on BDD100K using Ultralytics interface. Tracks training metrics (mAP, recall, precision) and saves model checkpoints |
-| `rtdetr_training.ipynb` (rtdetr_training.ipynb) | Fine-tuning RT-DETR using Hugging Face and PyTorch and saves model checkpoints|
-| `yolov8_inference.ipynb` (yolov8_inference.ipynb) | Inference and visualization for YOLOv8 |
-| `rtdetr_inference.ipynb` (rtdetr_inference.ipynb) | Inference and visualization for RT-DETR, latency measurement |
-| `rtdetr_evaluation.ipynb` (rtdetr_evaluation.ipynb) | Evaluation of RT-DETR model (mAP, precision, recall) |
-| `images/` | Example output images from models |
-| `requirements.txt` (requirements.txt) | Project dependencies |
-| `ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx` (ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx) | PowerPoint presentation from the project defense (available for download) |
+| [preprocessing.ipynb](preprocessing.ipynb) | Cleans BDD100K annotations, applies balancing techniques, and prepares formats for YOLOv8 and RT-DETR training |
+| [yolov8_training.ipynb](yolov8_training.ipynb) | Fine-tunes YOLOv8n on BDD100K using Ultralytics interface. Tracks training metrics (mAP, recall, precision) and saves model checkpoints |
+| [rtdetr_training.ipynb](rtdetr_training.ipynb) | Fine-tuning RT-DETR using Hugging Face and PyTorch and saves model checkpoints |
+| [yolov8_inference.ipynb](yolov8_inference.ipynb) | Inference and visualization for YOLOv8 |
+| [rtdetr_inference.ipynb](rtdetr_inference.ipynb) | Inference and visualization for RT-DETR, latency measurement |
+| [rtdetr_evaluation.ipynb](rtdetr_evaluation.ipynb) | Evaluation of RT-DETR model (mAP, precision, recall) |
+| [images/](images/) | Example output images from models |
+| [requirements.txt](requirements.txt) | Project dependencies |
+| [ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx](ПаранинаДМ%202025%20Распознавание%20объектов%20на%20дороге%20в%20реальном%20времени%20Защита.pptx) | PowerPoint presentation from the project defense (available for download) |
 
 ## Training Details
 
@@ -66,7 +66,7 @@ This reduction helps improve training efficiency and model performance by minimi
 - Image size: 512×512 px  
 - Training time: ~90 hours  
 
-## Example Results
+## Example Results (more in /images)
 
 ![Результат инференса модели yolo8n](images/output_yolo.jpg)
 
