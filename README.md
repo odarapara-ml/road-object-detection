@@ -79,8 +79,8 @@ This reduction helps improve training efficiency and model performance by minimi
 
 Both YOLOv8n and RT-DETR (R101-VD) achieved acceptable detection accuracy for research purposes (mAP@0.5 > 0.5), confirming their suitability for road object detection tasks.
 
-YOLOv8n showed a better trade-off for limited hardware: faster training, smaller model size, and real-time inference speed (>100 FPS on CPU).  
-RT-DETR (R101-VD) has the potential for higher accuracy, but requires significantly more resources, achieving less than 15 FPS in inference on CPU.  
+YOLOv8n showed a better trade-off for limited hardware: faster training, smaller model size, and real-time inference speed (>100 FPS on GPU (NVIDIA GTX 1630)).  
+RT-DETR (R101-VD) has the potential for higher accuracy, but requires significantly more resources, achieving less than 15 FPS in inference on GPU (NVIDIA GTX 1630).  
 This highlights the practical advantage of lightweight architectures like YOLOv8n in real-time applications without GPU acceleration.
 
 ## About
