@@ -86,5 +86,8 @@ RT-DETR, although slower, is a promising transformer-based alternative with comp
 ## About
 
 Project by **Darya Paranina**, MSc in Artificial Intelligence (Siberian Federal University, 2025)
-PowerPoint presentation from the project defense (available for download): [ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx](ПаранинаДМ%202025%20Распознавание%20объектов%20на%20дороге%20в%20реальном%20времени%20Защита.pptx) 
+
+PowerPoint presentation from the project defense (available for download):  
+[ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx](ПаранинаДМ%202025%20Распознавание%20объектов%20на%20дороге%20в%20реальном%20времени%20Защита.pptx)
+
 [GitHub](https://github.com/odarapara-ml)
