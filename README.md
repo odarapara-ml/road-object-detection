@@ -36,8 +36,8 @@ This reduction helps improve training efficiency and model performance by minimi
 | [rtdetr_evaluation.ipynb](rtdetr_evaluation.ipynb) | Evaluation of RT-DETR model (mAP, precision, recall) |
 | [images/](images/) | Example output images from models |
 | [requirements.txt](requirements.txt) | Project dependencies |
-| [DaryaParanina_RoadObjectDetection_Thesis2025.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pdf) | Master's thesis, full text (available for download) |
-| [DaryaParanina_RoadObjectDetection_Thesis2025.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx) | PowerPoint presentation from the project defense (available for download) |
+| [DaryaParanina_RoadObjectDetection_Thesis2025.pdf](DaryaParanina_RoadObjectDetection_Thesis2025.pdf) | Master's thesis, full text (available for download) |
+| [DaryaParanina_RoadObjectDetection_Thesis2025.pptx](DaryaParanina_RoadObjectDetection_Thesis2025.pptx) | PowerPoint presentation from the project defense (available for download) |
 
 ## Training Details
 
@@ -83,12 +83,13 @@ YOLOv8n showed a better trade-off for limited hardware: faster training, smaller
 RT-DETR (R101-VD) has the potential for higher accuracy, but requires significantly more resources, achieving less than 15 FPS in inference on GPU (NVIDIA GTX 1630).  
 This highlights the practical advantage of lightweight architectures like YOLOv8n in real-time applications without GPU acceleration.
 
+## Project Materials
+
+- [Master's thesis, full text (PDF)](DaryaParanina_RoadObjectDetection_Thesis2025.pdf)  
+- [PowerPoint presentation from the defense (PPTX)](DaryaParanina_RoadObjectDetection_Thesis2025.pptx)
+
 ## About
 
 Project by **Darya Paranina**, MSc in Artificial Intelligence (Siberian Federal University, 2025)
-
-Master's thesis, full text (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pdf)
-
-PowerPoint presentation from the project defense (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx)
 
 [GitHub](https://github.com/odarapara-ml)
