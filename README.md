@@ -3,11 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-This repository presents the results of my master's thesis in Artificial Intelligence, focused on real-time object detection for autonomous vehicles. The project compares YOLOv8n and RT-DETR models trained on the BDD100K dataset (road object detection).
-
-## Objective
-
-Train and compare lightweight convolutional (YOLOv8n) and transformer-based (RT-DETR-R101-VD) object detection models on 8 classes from the BDD100K dataset.
+This project focuses on real-time road object detection for autonomous driving using YOLOv8n and RT-DETR (R101-VD).  
+Both models are trained and evaluated on a curated version of the BDD100K dataset to detect 8 critical traffic-related object classes.
 
 ## Object Classes
 
@@ -80,17 +77,19 @@ This reduction helps improve training efficiency and model performance by minimi
 | YOLOv8n                  | 5.94 MB  | 768×768    | 0.569   | 0.324        | 0.511  | 9.6 ms         | >100 FPS |
 | RT-DETR-R101-VD (HF)     | 293.1 MB | 512×512    | 0.537   | 0.307        | 0.454  | 158.7 ms       | 6.3 FPS  |
 
-Both models were fine-tuned on 8 object classes from the BDD100K dataset.  
-YOLOv8n demonstrates faster inference and slightly better accuracy on this setup, making it more suitable for real-time applications.  
-RT-DETR, although slower, is a promising transformer-based alternative with comparable performance.
+Both YOLOv8n and RT-DETR (R101-VD) achieved acceptable detection accuracy for research purposes (mAP@0.5 > 0.5), confirming their suitability for road object detection tasks.
+
+YOLOv8n showed a better trade-off for limited hardware: faster training, smaller model size, and real-time inference speed (>100 FPS on CPU).  
+RT-DETR (R101-VD) has the potential for higher accuracy, but requires significantly more resources, achieving less than 15 FPS in inference on CPU.  
+This highlights the practical advantage of lightweight architectures like YOLOv8n in real-time applications without GPU acceleration.
 
 ## About
 
 Project by **Darya Paranina**, MSc in Artificial Intelligence (Siberian Federal University, 2025)
 
-Master's thesis, full text (available for download): [Магистерская диссертация ПаранинаДМ КИ23-01-13М.pdf](Магистерская%20диссертация%20ПаранинаДМ%20КИ23-01-13М.pdf)
+Master's thesis, full text (available for download): [DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pdf](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pdf)
 
 PowerPoint presentation from the project defense (available for download):  
-[ПаранинаДМ 2025 Распознавание объектов на дороге в реальном времени Защита.pptx](ПаранинаДМ%202025%20Распознавание%20объектов%20на%20дороге%20в%20реальном%20времени%20Защита.pptx)
+[DaryaParanina_RoadObjectDetection_Thesis2025.pptx.pptx](DaryaParanina%20RoadObjectDetection%20Thesis2025.pptx.pptx)
 
 [GitHub](https://github.com/odarapara-ml)
