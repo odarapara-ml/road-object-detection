@@ -1,0 +1,8 @@
+torch>=2.0.0
+ultralytics>=8.0.0
+transformers>=4.30.0
+opencv-python
+pillow
+matplotlib
+tqdm
+pycocotools
