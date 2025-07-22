@@ -9,7 +9,7 @@ Both models are trained and evaluated on a curated version of the BDD100K datase
 ## Object Classes
 
 The original label set from the BDD100K dataset contained 10 classes. For this project, it was reduced to 8 classes with the following modifications:
-- The **Train** class was removed due to its rare occurrence and low relevance to the task.
+- The **Train** class was removed due to its rare occurrence.
 - The **Motorcycle** and **Bicycle** classes were combined into a single class called **Two-wheeler**, as they share similar visual features and behavior.
 
 The final set of 8 classes used in this project is:
